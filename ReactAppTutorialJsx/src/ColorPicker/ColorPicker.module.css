@@ -1,0 +1,29 @@
+
+.colorPickerContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+}
+
+.h1 {
+    margin: 50px;
+    font-size: 3em;
+}
+
+.colorDisplay {
+    width: 300px;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 25px;
+}
+
+.input {
+    width: 75px;
+    height: 50px;
+    padding: 5px;
+    border-radius: 10px;
+}

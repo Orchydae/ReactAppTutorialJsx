@@ -4,12 +4,24 @@ import Food from './Food.jsx'
 import Card from './Card.jsx'
 import Button from './Button/Button.jsx'
 import Student from './Student/Student.jsx'
+import UserGreeting from './UserGreeting.jsx'
+import ExampleUseStateComponent from './ExampleUseStateComponent.jsx'
+import ColorPicker from './ColorPicker/ColorPicker.jsx'
 
 function App() {
+
+
+    const fruits = [{ id: 1, name: 'Apple', calories: 95 },
+    { id: 2, name: 'Banana', calories: 150 },
+    { id: 3, name: 'Orange', calories: 11 }];
+
     return (
         <> {/* This is a fragment */}
             <Header />
-            <Food />
+            <UserGreeting isLoggedIn={true} username="David" />
+            <ExampleUseStateComponent />
+            <ColorPicker />
+            <Food items={fruits} category="Fruits" />
             <Card />
             <Card />
             <Card />
