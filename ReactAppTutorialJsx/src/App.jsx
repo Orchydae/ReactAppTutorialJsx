@@ -7,6 +7,7 @@ import Student from './Student/Student.jsx'
 import UserGreeting from './UserGreeting.jsx'
 import ExampleUseStateComponent from './ExampleUseStateComponent.jsx'
 import ColorPicker from './ColorPicker/ColorPicker.jsx'
+import ExampleUpdateObjects from './ExampleUpdateObjects.jsx'
 
 function App() {
 
@@ -20,13 +21,14 @@ function App() {
             <Header />
             <UserGreeting isLoggedIn={true} username="David" />
             <ExampleUseStateComponent />
+            <ExampleUpdateObjects />
             <ColorPicker />
             <Food items={fruits} category="Fruits" />
             <Card />
             <Card />
             <Card />
-            <Card />
-            <Button />
+            <Card /> <br/>
+            <Button /> <br/>
             <Student name="Spongebob" age={30} isStudent={false} />
             <Student name="Patrick" age="31" isStudent={true} />
             <Student name="Squidward" age={32} isStudent={false} />
