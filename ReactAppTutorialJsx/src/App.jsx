@@ -8,6 +8,8 @@ import UserGreeting from './UserGreeting.jsx'
 import ExampleUseStateComponent from './ExampleUseStateComponent.jsx'
 import ColorPicker from './ColorPicker/ColorPicker.jsx'
 import ExampleUpdateObjects from './ExampleUpdateObjects.jsx'
+import ExampleUpdateArrays from './ExampleUpdateArrays.jsx'
+import ExampleUpdateArrayOfObjects from './ExampleUpdateArrayOfObjects.jsx'
 
 function App() {
 
@@ -21,7 +23,9 @@ function App() {
             <Header />
             <UserGreeting isLoggedIn={true} username="David" />
             <ExampleUseStateComponent />
-            <ExampleUpdateObjects />
+            <ExampleUpdateObjects /> <br />
+            <ExampleUpdateArrays /> <br />
+            <ExampleUpdateArrayOfObjects /> <br />
             <ColorPicker />
             <Food items={fruits} category="Fruits" />
             <Card />
