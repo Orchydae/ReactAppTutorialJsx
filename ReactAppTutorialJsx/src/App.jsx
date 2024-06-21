@@ -10,6 +10,7 @@ import ColorPicker from './ColorPicker/ColorPicker.jsx'
 import ExampleUpdateObjects from './ExampleUpdateObjects.jsx'
 import ExampleUpdateArrays from './ExampleUpdateArrays.jsx'
 import ExampleUpdateArrayOfObjects from './ExampleUpdateArrayOfObjects.jsx'
+import Counter from './Counter.jsx'
 
 function App() {
 
@@ -26,6 +27,7 @@ function App() {
             <ExampleUpdateObjects /> <br />
             <ExampleUpdateArrays /> <br />
             <ExampleUpdateArrayOfObjects /> <br />
+            <Counter />
             <ColorPicker />
             <Food items={fruits} category="Fruits" />
             <Card />
